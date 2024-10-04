@@ -1,0 +1,65 @@
+@media (max-width: 740px){
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    #nav,
+    #nav > li >a,
+    #nav > li{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav{
+        position: initial;
+        background: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 42px;
+    }
+
+    #content .member-list {
+        flex-direction: column;
+    }
+    #tour .location-list{
+        flex-direction: column;
+    }
+    #tour .location-item{
+        width: 100%;
+    }
+    .contact-content {
+        flex-direction: column;
+    }
+    .contact-left, 
+    .contact-right{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .contact-right button {
+        width: 100%;
+       
+    }
+    .contact-text-box-row-one{
+        flex-direction: column;
+    }
+    .contact-text-box{
+        padding: 0;
+        margin-bottom: 8px;
+    }
+    .contact-text-box-row-one{
+        margin: 0;
+    }
+    
+
+    
+}
